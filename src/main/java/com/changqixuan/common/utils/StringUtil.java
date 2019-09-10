@@ -30,7 +30,7 @@ public class StringUtil {
 		/**
 		 * 根据/r/n换成|
 		 */
-		String str = src.replaceAll(System.getProperty("line.separator"),"|");
+		String str = src.replaceAll(System.getProperty("line.separator"),"|").replaceAll("\\r","<\br>");
 		/**
 		 * 根据|切割
 		 */

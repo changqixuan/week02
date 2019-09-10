@@ -63,7 +63,7 @@ public class StringUtilTest {
 	
 	@Test
 	public void isPhoneNumber() {
-		String number = "13111275035";
+		String number = "19111275035";
 		/**
 		 * 验证手机号
 		 */
@@ -73,7 +73,7 @@ public class StringUtilTest {
 	
 	@Test
 	public void isEmail() {
-		String email = "1031273669@qq.com";
+		String email = "1031273669qq.com";
 		/**
 		 * 验证邮箱
 		 */
